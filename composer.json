@@ -1,0 +1,21 @@
+{
+    "name": "waljqiang/socket",
+    "description": "php for send UDP with socket",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "waljqiang",
+            "email": "waljqiang@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4":{
+            "Waljqiang\\Socket\\": "src/"
+        }
+    }
+}
